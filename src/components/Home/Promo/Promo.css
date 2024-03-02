@@ -1,0 +1,33 @@
+.promo{
+    height: 760px;
+    /* position: absolute; */
+    align-items: center;
+
+    background: var(--header-main);
+    overflow: hidden;
+}
+.promo__main {
+    height: 760px;
+    display: flex;
+    align-items: center;
+}
+.sumbol{
+    position: absolute;
+    z-index: 1;
+}
+.promo__text-container{
+    display: flex;
+    justify-content: center;
+}
+.promo__main>.promo__text-container>.promo__title, .promo__text>p{
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.promo__text{
+    width: 950px;
+}
+.promo__title>p{
+    color: rgba(199, 173, 255, 0.19);
+}

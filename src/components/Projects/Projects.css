@@ -1,0 +1,19 @@
+.projects{
+    display: grid;
+    justify-content: center;
+    gap: 70px 33px;
+    grid-template-columns: repeat(auto-fill, 404px);
+}
+.projects__element{
+    overflow: hidden;
+    border: 1px solid  #573998;
+}
+.noMore{
+    margin-top: 30px;
+}
+.projects>a>.projects__element>img{
+    transition: all 0.8s;
+}
+.projects>a>.projects__element>img:hover{
+    transform: scale(1.05);
+}

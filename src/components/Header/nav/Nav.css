@@ -1,0 +1,30 @@
+.header__nav{
+    color: #dcdcdc;
+    width: 100vw;
+}
+.header__nav>ul{
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+
+    font-size: 27px;
+    font-weight: 600;
+
+    margin: 0;
+}
+.header__nav>ul>li{
+    margin: 0;
+    padding: 0;
+}
+.min__ul{
+    font-size: 30px;
+}
+.hd__min{
+    font-size: 40px;
+}
+#title{
+    font-weight: 500;
+}
+.header__nav__min__btn{
+    border-radius: 0;
+}

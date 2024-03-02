@@ -1,0 +1,43 @@
+.dark-mode-btn{
+    background: linear-gradient(138deg, #191428 -0.38%, #160B36 99.42%);
+
+    border-radius: 60px;
+
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 6px;
+    right: 15px;
+    width: 80px;
+    height: 45px;
+}
+.dark-mode-btn::before{
+    content: "";
+    
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    display: block;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    background-color: white;
+    transition: all 0.2s ease-in;
+}
+.dark__active::before{
+    left: 40px;
+}
+.dark-mode-btn>.bi{
+    position: relative;
+    color: #160B36;
+    z-index: 9;
+    font-size: 27px;
+}
+.dark-mode-btn>.bi:hover{
+    color: #160B36;
+}

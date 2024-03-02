@@ -1,0 +1,27 @@
+footer{
+    width: 100vw;
+    height: 70px;
+
+    margin-top: auto;
+
+    border: 1px solid rgba(253, 253, 253, 0.22);
+    background: var(--main);
+}
+footer>a>.bi{
+    font-size: 35px;
+    margin-right: 15px;
+    transition: all 0.8s;
+}
+footer>a>h1{
+    margin: 0;
+    padding: 0;
+}
+footer>a{
+    color: #dcdcdc !important;
+    transition: all 0.8s;
+    font-size: 21px;
+}
+footer>a:hover{
+    color: #808080 !important;
+    /* transform: scale(1.5); */
+}
